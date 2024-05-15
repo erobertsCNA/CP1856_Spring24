@@ -19,8 +19,8 @@ lose_amt = starting_money - bet_amount
 
 # Display the output as required
 print("\nENDING MONEY FOR A...")
-print(f"Blackjack:\t\t\t{blackjack_amt}")
-print(f"Win:\t\t\t\t{win_amt}")
-print(f"Push:\t\t\t\t{starting_money}")
-print(f"Lose:\t\t\t\t{lose_amt}")
+print(f"Blackjack:\t\t\t{blackjack_amt:.2f}")
+print(f"Win:\t\t\t\t{win_amt:.2f}")
+print(f"Push:\t\t\t\t{starting_money:.2f}")
+print(f"Lose:\t\t\t\t{lose_amt:.2f}")
 print("\nBye!")
