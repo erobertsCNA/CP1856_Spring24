@@ -15,19 +15,19 @@ while choice.lower() == 'y':
     
     # Conversion Logic
     # Calculating Quarters
-    if (cents > 25):
+    if (cents >= 25):
         quarters = cents // 25
         cents = cents % 25
     else:
         quarters = 0
     # Calculating Dimes
-    if (cents > 10):
+    if (cents >= 10):
         dimes = cents // 10
         cents = cents % 10
     else:
         dimes = 0
     # Calculating Nickels
-    if (cents > 5):
+    if (cents >= 5):
         nickels = cents // 5
         cents = cents % 5
     else:
