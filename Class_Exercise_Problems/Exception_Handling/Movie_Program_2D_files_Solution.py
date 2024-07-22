@@ -61,7 +61,7 @@ def delete_movie(movies):
         try:
             num = int(input("Number: "))
             if (num < 1) or (num > len(movies)):
-                print("There is no movie with that number. Please try again\n")
+                print("There is no movie with that number. Please try again.")
             else:
                 break
         except ValueError:
