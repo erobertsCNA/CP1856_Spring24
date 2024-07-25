@@ -15,9 +15,6 @@ def show_books(dict_of_dicts):
     else:
         print(f"Sorry, {book_title} doesn't exist in the catalog.")
 
-book_catalog = {"Moby Dick":{'author': 'Herman Melville', 'pubyear': '1851'},
-                "Slaughterhouse Five":{'author': 'Kurt Vonnegut', 'pubyear':'1969'}}
-
 
 def add_edit_book(book_catalog, mode):
     title = input("Title: ")
